@@ -11,4 +11,40 @@
 body{
     background-color:#FFFFFF;
     color:#757575;
+    /* клас навигация */
 }
+.novigation-link .novigation-web{
+    color:#2196F3 ;
+}
+.novigation-link .novigation-studio{
+    color:#000000;
+}
+
+ul{
+    list-style: none;
+}
+.novigation-item .novigation-link:hover, 
+.novigation-item .novigation-link:focus{
+    color:#2196F3;
+}
+
+/* hero */
+
+.hero-sentr .hero-title{
+    color: #FFFFFF;
+} 
+
+
+/* hero-summary */
+.hero-list.hero-subtitle{
+    color:#212121;
+}
+/* about */
+.about.about-title{
+    color: #212121;
+}
+/* team */
+.team.team-title{
+    color: #212121;
+}
+
