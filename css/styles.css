@@ -38,13 +38,29 @@ ul{
     color:var(--accent-color);
 }
 
+
+/* company list */
+.company-list .company-link:hover,
+.company-list .company-link:focus{
+    color: var(--accent-color);
+}
+
 /* hero */
 
 .hero-sentr .hero-title{
     color:var(--main-color);
 } 
 
+/* button */
 
+.btn{
+    color: var(--main-color);
+    background-color: var(--accent-color);
+}
+.btn-portfolio{
+    color:var(--title-text-color);
+    background-color: var(--main-color);
+}
 /* hero-summary */
 .hero-summary .hero-subtitle{
     color:var(--title-text-color);
@@ -54,11 +70,26 @@ ul{
     color: var(--title-text-color);
 }
 /* team */
-.team .team-title{
-    color:var(--title-text-color);
-}
-
+.team .team-title, 
 .team .team-name{
     color:var(--title-text-color);
 }
 
+/* footer */
+
+.footer .web{
+    color:var(--accent-color);
+}
+.footer .studio{
+    color:var(--main-color);
+}
+.footer .adress,
+ .company-link{
+color: var(--main-color);
+}
+
+
+.footer .company-link:hover,
+.footer .company-link:focus{
+    color: var(--accent-color);
+}
