@@ -14,35 +14,89 @@
     --accent-color:#2196F3;
     --novigation-color:#000000;
     --main-color:#FFFFFF;
+    --main-font:'Roboto', sans-serif;
+    --title-size:36px;
+    --text-size:14px;
+    --time-size:16px;
+    --logo-size:26px;
 }
 
 
 body{
-    background-color:#FFFFFF;
+    background-color:#793535;
     color:var(--primary-text-color);
-
-    /* клас навигация */
 }
-.novigation-link .novigation-web{
+
+/* header */
+
+.header{
+    width:1600px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    }
+
+.header-web{
     color:var(--accent-color);
-}
-.novigation-link .novigation-studio{
+    font-size: var(--logo-size);
+    font-family: var(--main-font);
+    }
+.header-studio{
     color:var(--novigation-color);
-}
+    font-size: var(--logo-size);
+    font-family: var(--main-font);
+   }
+.header-link{
+    color:var(--title-text-color);
+    font-family:var(--main-font);
+    text-decoration: none;
+    font-size: var(--text-size);
+    margin:25px 93px 25px 215px;
+    }
 
+
+
+/* клас навигация */
 ul{
     list-style: none;
 }
-.novigation-item .novigation-link:hover, 
-.novigation-item .novigation-link:focus{
-    color:var(--accent-color);
+
+.navigation-list{
+    display: flex;
+    
+    }
+    .novigation-item{
+    margin-right: 50px;
+    background-color: #2196F3;
+    }
+    
+.novigation-link:hover, 
+.novigation-link:focus{
+color:var(--accent-color);
+}
+/* company list */
+
+.company-list{
+    display: flex;
+    margin:10px 25px 70px 70px ;
+}
+.company-item{
+    margin-right: 50px;
+    background-color: #2196F3;
+}
+.company-item .company-link{
+   text-decoration: none;
+   color: var(--title-text-color);  
+   font-size: var(--text-size);
+   font-family: var(--main-font);
+   display: flex;
 }
 
 
-/* company list */
-.company-list .company-link:hover,
-.company-list .company-link:focus{
-    color: var(--accent-color);
+.company-link:hover,
+.company-link:focus{
+ color: var(--accent-color);
+   
 }
 
 /* hero */
@@ -76,7 +130,9 @@ ul{
 }
 
 /* footer */
-
+.footer-logo{
+    text-decoration: none;
+}
 .footer .web{
     color:var(--accent-color);
 }
@@ -92,4 +148,8 @@ color: var(--main-color);
 .footer .company-link:hover,
 .footer .company-link:focus{
     color: var(--accent-color);
+    text-decoration: none;
+}
+..footer .company-link{
+    color:var(--main-color);
 }
