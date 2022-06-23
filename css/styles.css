@@ -23,7 +23,7 @@
 
 
 body{
-    background-color:#793535;
+    background-color:#f7f2f2;
     color:var(--primary-text-color);
 }
 
@@ -54,8 +54,6 @@ body{
     margin:25px 93px 25px 215px;
     }
 
-
-
 /* клас навигация */
 ul{
     list-style: none;
@@ -67,22 +65,29 @@ ul{
     }
     .novigation-item{
     margin-right: 50px;
-    background-color: #2196F3;
     }
     
 .novigation-link:hover, 
 .novigation-link:focus{
 color:var(--accent-color);
 }
+.novigation-link{
+    color: var(--title-text-color);
+    text-decoration: none;
+    font-size: var(--text-size);
+    font-family: var(--main-font);
+}
+
+
 /* company list */
 
 .company-list{
     display: flex;
-    margin:10px 25px 70px 70px ;
+    margin:27px 9px 29px 211px; ;
 }
 .company-item{
     margin-right: 50px;
-    background-color: #2196F3;
+    
 }
 .company-item .company-link{
    text-decoration: none;
